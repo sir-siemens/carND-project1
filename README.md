@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #**Finding Lane Lines on the Road** 
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
@@ -100,3 +101,7 @@ A browser window will appear showing the contents of the current directory.  Cli
 
 **Step 5:** Complete the project and submit both the Ipython notebook and the project writeup
 
+=======
+# carND-project1
+Project 1: Finding Lane Lines
+>>>>>>> 28d4deb2056b405af2319a933dc98a53d8b0644e
