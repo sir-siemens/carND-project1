@@ -1,8 +1,5 @@
 #**Finding Lane Lines on the Road** 
 
-##Writeup Template
-
-###You can use this file as a template for your writeup if you want to submit it as a markdown file. But feel free to use some other method and submit a pdf if you prefer.
 
 ---
 
@@ -25,14 +22,14 @@ The goals / steps of this project are the following:
 
 My pipeline consisted of 8 steps. 
 
-#### convert to gray scale 
-#### gaussian blur
-#### canny edge detection
-#### extract region of interest based on 8 vertices
-#### find lines using hough transformation
-#### classify lines to either left or right line or unrelevant  
-#### least square line regression (organize all the points for representing lines into two arrays and find the best fit for left lane and right lane )
-#### extrapolation (compute the intersection between the best fit line and ROI ) 
+* convert to gray scale 
+* gaussian blur
+* canny edge detection
+* extract region of interest based on 8 vertices
+* find lines using hough transformation
+* classify lines to either left or right line or unrelevant  
+* least square line regression (organize all the points for representing lines into two arrays and find the best fit for left lane and right lane )
+* extrapolation (compute the intersection between the best fit line and ROI ) 
 
 I didn't modify draw_lines funtions since my result only contains two lines
 
